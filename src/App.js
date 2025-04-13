@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Question1 from "./components/Question1";
 import Question2 from "./components/Question2";
 import Question3 from "./components/Question3";
