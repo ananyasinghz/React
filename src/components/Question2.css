@@ -1,0 +1,50 @@
+.question2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .image-box img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .login-box {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="submit"],
+  .form-group input[type="button"] {
+    margin-right: 10px;
+    padding: 6px 12px;
+  }
+  
